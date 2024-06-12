@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "areyesS3C", "areyesS3C\areyesS3C.csproj", "{DD6722A2-7BD3-4FAA-AE53-33D28EC4D793}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD6722A2-7BD3-4FAA-AE53-33D28EC4D793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD6722A2-7BD3-4FAA-AE53-33D28EC4D793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD6722A2-7BD3-4FAA-AE53-33D28EC4D793}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DD6722A2-7BD3-4FAA-AE53-33D28EC4D793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD6722A2-7BD3-4FAA-AE53-33D28EC4D793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD6722A2-7BD3-4FAA-AE53-33D28EC4D793}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA03477F-9EAA-4CD4-BF63-579BEFC7C185}
+	EndGlobalSection
+EndGlobal

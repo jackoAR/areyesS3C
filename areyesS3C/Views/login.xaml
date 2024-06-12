@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="areyesS3C.Views.login"
+             Title="login">
+    <VerticalStackLayout
+        Spacing="20"
+        Padding="20">
+
+        <Label 
+            Text="Inicio de Sesión"            
+            HorizontalTextAlignment="Center"
+            FontSize="20"
+            TextColor="Red"
+            />
+
+        <Image 
+            Source="Resources/Images/uisrael.png"
+            WidthRequest="100"/>
+
+        <Entry x:Name="txtUsuario"
+               Placeholder="Ingrese el usuario"/>
+
+        <Entry x:Name="txtPassword"
+               Placeholder="Ingrese contraseña"/>
+
+        <Button x:Name="btnInicio"
+                Text="INICIA SESION"
+                Clicked="btnInicio_Clicked"/>
+
+        <Button x:Name="btnRegistro"
+                Text="REGISTRAR USUARIO"
+                Clicked="btnRegistro_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>
