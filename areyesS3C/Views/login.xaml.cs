@@ -7,18 +7,32 @@ public partial class login : ContentPage
 		InitializeComponent();
 	}
 
-    public login(string username, string password)
+    string user;
+    string password;
+    public login(string usuario, string contrasena)
     {
-
-    }
-
-    private void btnRegistro_Clicked(object sender, EventArgs e)
-    {
+        InitializeComponent();
+        user = usuario;
+        password = contrasena;
 
     }
 
     private void btnInicio_Clicked(object sender, EventArgs e)
     {
+        if (user == txtUsuario.Text && password == txtPassword.Text)
+        {
+            Navigation.PushAsync(new Home(user));
 
+        }
+        else
+        {
+            DisplayAlert("ALERTA", "USUARIO O CONTRASEÑA INCORRECTOS", "ok");
+        }
     }
+    private void btnRegistro_Clicked(object sender, EventArgs e)
+    {
+            Navigation.PushAsync(new Registro());
+    }
+
+    
 }

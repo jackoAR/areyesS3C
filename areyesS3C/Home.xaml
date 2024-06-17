@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="areyesS3C.Home"
+             NavigationPage.HasBackButton="False"
              Title="Home">
     <VerticalStackLayout
         Padding="20"
@@ -10,11 +11,12 @@
         <Label x:Name="lblNombre"
                HorizontalTextAlignment="End"
                FontSize="15"
-               TextColor="Red"/>
+               TextColor="Red"
+               />
         <Label
-            Text="HOME"
-            FontSize="20"
-            HorizontalTextAlignment="Center" 
-            />
+               Text="HOME"
+               FontSize="20"
+               HorizontalTextAlignment="Center" 
+               />
     </VerticalStackLayout>
 </ContentPage>
